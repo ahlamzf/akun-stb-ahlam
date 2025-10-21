@@ -1,17 +1,17 @@
 proxies:
 
   - name: biznet wilcard
-    server: support.zoom.us
+    server: 104.18.3.2
     port: 443
     type: trojan
     password: 654e2d2d-0fc4-4e31-8b1f-0776ba3a3b5d
     skip-cert-verify: true
-    sni: support.zoom.us.wrt.comvpnlaelanet.my.id
+    sni: 104.18.3.2.wrt.comvpnlaelanet.my.id
     network: ws
     ws-opts:
       path: /trojan-tls
       headers:
-        Host: support.zoom.us.wrt.comvpnlaelanet.my.id
+        Host: 104.18.3.2.wrt.comvpnlaelanet.my.id
     udp: true
 
 
