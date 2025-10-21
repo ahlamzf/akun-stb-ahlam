@@ -6,24 +6,24 @@ proxies:
     type: trojan
     password: 654e2d2d-0fc4-4e31-8b1f-0776ba3a3b5d
     skip-cert-verify: true
-    sni: 104.17.3.81.wrt.comvpnlaelanet.my.id
+    sni: wrt.comvpnlaelanet.my.id
     network: ws
     ws-opts:
       path: /trojan-tls
       headers:
-        Host: 104.17.3.81.wrt.comvpnlaelanet.my.id
+        Host: wrt.comvpnlaelanet.my.id
     udp: true
 
 
 
 
   - name: nusa wilcard
-    server: support.zoom.us
+    server: 104.17.3.81
     type: trojan
     port: 443
     password: 3c8ec68c-96bd-11f0-888e-539776860c69
     skip-cert-verify: true
-    sni: zoomgov.luna-vpn.biz.id
+    sni: nusa.luna-vpn.biz.id
     network: ws
     ws-opts:
       path: /trojan
